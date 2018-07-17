@@ -8,7 +8,7 @@ end
 echo
 echo -e "\033[32mpython $1.py:\033[39m"
 if test -e $argv.py
-    python $argv.py
+    python3 $argv.py
 else
     echo "The $argv.py file does not exist"
 end
